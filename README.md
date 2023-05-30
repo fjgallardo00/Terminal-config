@@ -78,7 +78,7 @@ Para instalarlas, vamos a las releases de sus repositorios en github:
 
 De allí descargar el archivo que queramos de sus assets (zip, deb, tar)
 
-O también se pueden descargar así el archivo _.deb_ y ejecutar luego:
+O también se pueden descargar así los archivos _.deb_ y ejecutar luego:
 
 ```
 wget https://github.com/sharkdp/bat/releases/download/v0.23.0/bat_0.23.0_amd64.deb
