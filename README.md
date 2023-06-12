@@ -108,3 +108,15 @@ Ejemplos de ejecución de los comandos:
 #### Lsd
 
 ![ejemplo-ejecucion-lsd](/imgs/ejemplo-lsd.png)
+
+### Archivo de historial
+
+Para establecer el archivo de _.zsh\_history_ y así tener un historial de los comandos realizados, escribimos dentro del fichero lo siguiente:
+
+```
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+```
+
+De esta manera podremos consultar con el comando _history_ nuestro histórico de comandos. Si no hicieramos este paso, el historial de cada sesión se eliminaría.
