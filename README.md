@@ -111,7 +111,7 @@ Ejemplos de ejecución de los comandos:
 
 ### Archivo de historial
 
-Para establecer el archivo de _.zsh\_history_ y así tener un historial de los comandos realizados, escribimos dentro del fichero lo siguiente:
+Para establecer el archivo de _.zsh\_history_ y así tener un historial de los comandos realizados, escribimos dentro del fichero _.zshrc_ lo siguiente:
 
 ```
 HISTFILE=~/.zsh_history
